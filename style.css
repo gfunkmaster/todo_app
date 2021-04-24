@@ -12,3 +12,54 @@ body {
     max-width: 960px;
     margin: 0 auto;
 }
+
+.todo{
+    margin-top: 2rem;
+    padding: 2rem 4 rem;
+    border-radius: .3rem;
+    color: #fff;
+    background: #222930;
+    width: 90%;
+    min-width: 480px;
+    height: 768px;
+    
+}
+
+.todo_header{
+    padding: 1rem 0;
+
+}
+
+.todo__title{
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.todo__input{
+    width: 100%;
+    border-radius: .3rem;
+    padding: 1rem 1.2rem;
+    margin-top: .5rem;
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+}
+
+.todo__list {
+    list-style: none;
+}
+
+.todo__item{
+    padding: 1rem 1.2rem;
+    border-bottom: 2px solid #d49a3f ;
+}
+
+.todo__item:hover{
+    cursor: default;
+}
+
+.done{
+    text-decoration: line-through;
+    color: #aaa;
+    border-bottom: 2 px solid rgb(65, 52, 32);
+}
